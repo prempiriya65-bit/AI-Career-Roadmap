@@ -1,0 +1,33 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets & environment files (never commit API keys)
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+
+# IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS & temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
